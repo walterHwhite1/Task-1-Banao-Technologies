@@ -10,7 +10,7 @@ Categorize the following customer support ticket into one of these categories:
 - App & Firmware
 - Account & Login
 - Product Enquiry
-- Other
+
 
 Ticket text:
 {ticket_text}
