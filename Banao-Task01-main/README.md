@@ -1,9 +1,6 @@
 # Vireo Audio — Customer Support AI Categorization & Workforce Planning System
 
-[![Python Version](https://img.shields.io/badge/Python-3.14%20%7C%203.11%20%7C%203.10-blue.svg)](https://www.python.org/)
-[![Framework](https://img.shields.io/badge/Framework-Streamlit%201.61-red.svg)](https://streamlit.io/)
-[![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn%201.8-orange.svg)](https://scikit-learn.org/)
-[![License](https://img.shields.io/badge/License-Proprietary%20Vireo-green.svg)]()
+
 
 ---
 
