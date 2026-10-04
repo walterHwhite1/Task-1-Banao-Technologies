@@ -1,0 +1,99 @@
+{
+  "evaluation_dataset": "Independent 15% Holdout Test Set (Untouched during training)",
+  "test_sample_size": 1767,
+  "ai_model": {
+    "accuracy": 0.8449,
+    "error_rate": 0.1551,
+    "macro_precision": 0.9012,
+    "macro_recall": 0.8808,
+    "macro_f1": 0.8874,
+    "weighted_precision": 0.8454,
+    "weighted_recall": 0.8449,
+    "weighted_f1": 0.8418,
+    "review_rate": 0.2988,
+    "high_confidence_accuracy": 0.9274,
+    "per_category": {
+      "Account & Login": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 42
+      },
+      "App & Firmware": {
+        "precision": 1.0,
+        "recall": 0.9286,
+        "f1_score": 0.963,
+        "support": 28
+      },
+      "Audio Quality": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 75
+      },
+      "Billing & Payments": {
+        "precision": 0.8291,
+        "recall": 0.7751,
+        "f1_score": 0.8012,
+        "support": 169
+      },
+      "Charging & Battery": {
+        "precision": 0.9862,
+        "recall": 0.9862,
+        "f1_score": 0.9862,
+        "support": 145
+      },
+      "Connectivity": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "support": 122
+      },
+      "Delivery & Shipping": {
+        "precision": 0.7973,
+        "recall": 0.9446,
+        "f1_score": 0.8647,
+        "support": 379
+      },
+      "Other": {
+        "precision": 0.7922,
+        "recall": 0.7971,
+        "f1_score": 0.7946,
+        "support": 483
+      },
+      "Product Enquiry": {
+        "precision": 0.8667,
+        "recall": 1.0,
+        "f1_score": 0.9286,
+        "support": 26
+      },
+      "Returns & Refunds": {
+        "precision": 0.7586,
+        "recall": 0.6111,
+        "f1_score": 0.6769,
+        "support": 216
+      },
+      "Warranty & Repair": {
+        "precision": 0.8833,
+        "recall": 0.6463,
+        "f1_score": 0.7465,
+        "support": 82
+      }
+    }
+  },
+  "baseline_intake_bot": {
+    "accuracy": 0.4527,
+    "error_rate": 0.5473,
+    "macro_precision": 0.4752,
+    "macro_recall": 0.6074,
+    "macro_f1": 0.4933,
+    "weighted_precision": 0.4853,
+    "weighted_recall": 0.4527,
+    "weighted_f1": 0.4422
+  },
+  "improvement": {
+    "accuracy_gain_pct": 39.22,
+    "f1_macro_gain_pct": 39.41,
+    "error_reduction_pct": 71.66
+  }
+}
